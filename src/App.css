@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --clr-blue: #1c2042;
+  --clr-white: #dddddd;
+  --clr-black: #3333333;
+}
+html {
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--clr-white);
+  color: var(--clr-blue);
+}
+.content{
+    /* background-color: aqua; */
+    height:100%;
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+img{
+    height: 150px;
+    padding: 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}  
+.users{
+    background-color: white;
+    height: 100%;
+    /* font-weight: 900; */
+  
+
+}
+ ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 60px;
+    column-gap: 45px;
+    padding: 65px;
+    font-weight: 900;
+   align-items: center;
+    justify-content: center;
+  }
+.about{
+    background-color: #828284;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #dddddd;
+    height: 40px;
+    border-radius: 5px;
+    width: 190px;
+    gap: 20px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+}
+a{
+  font-style: none;
+  text-decoration: none;
+  color: rgb(21, 0, 255);
+  justify-content: center;
+    align-items: center;
+}
+ul{
+  list-style-type: none;
+  justify-content: center;
+    align-items: center;
+}
+.name{
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-weight: 900;
+}
+.head{
+/* background-color: aqua; */
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+justify-items: center;
+font: 100;
+font-weight: 900;
+text-shadow: 2px 2px 2px rgb(108, 108, 108);
+
+}
+.head img{
+  height: 120px;
+  justify-content: center;
+}
+.head h1{
+  padding: 1px;
+  color: rgb(61, 61, 60);
+  font-style: oblique;
+  text-decoration:overline;
+}
